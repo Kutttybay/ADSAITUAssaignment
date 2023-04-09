@@ -22,6 +22,11 @@ public class Task2 {
         double average = getAverage(arr);
         System.out.println("The average is " + average);
     }
+    /*
+    initialize the "sum" variable to 0.0.
+    then use a "for" loop to loop through all the elements in the "arr" array and add each element to "sum".
+    after all we return value what sum divide by array length
+    */
     public static double getAverage(int[] arr) {
         double sum = 0.0;
         for (int i = 0; i < arr.length; i++) {
