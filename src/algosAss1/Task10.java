@@ -3,6 +3,12 @@ package algosAss1;
 import java.util.Scanner;
 
 public class Task10 {
+    /*
+    This is a method for finding the Greatest Common Divisor (GCD) of two integers a and b using Euclid's recursive algorithm.
+    If one of the numbers is zero, then GCD is equal to the other number.
+    Otherwise, a recursive function is called, where instead of the original numbers a and b, b and the remainder of dividing a by b (a % b) are passed.
+    The function continues to call itself until a GCD is found.
+    */
     public int findGCD(int a, int b){
         if (b == 0){
             return a;
