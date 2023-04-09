@@ -10,7 +10,6 @@ public class Main {
         switch case , what check input
         In cases created object and call method in the other class
         */
-
         boolean tf = true;
         while(tf) {
             System.out.println("Welcome, you in Assignment 1 \n" +

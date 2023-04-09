@@ -3,6 +3,15 @@ package algosAss1;
 import java.util.Scanner;
 
 public class Task1 {
+    /*
+    Input length for array, and sequences
+    call method getMin
+    Init. new values min what equals first array number
+    Start loop for what stop when i will be less than array length
+    loop have if statement , if array number of i will be less than min value, min value will be equals to arr[i]
+    after loop , and statement success
+    return min value
+    */
     public int getMin(int[] arr) {
         int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
