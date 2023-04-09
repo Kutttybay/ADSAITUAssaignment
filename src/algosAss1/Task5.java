@@ -18,6 +18,12 @@ public class Task5 {
         int ans = fibonacci(n);
         System.out.println("Fibonacci number : " + ans);
     }
+    /*
+    The code checks if the number n is 0, then returns 0, since the first number in the Fibonacci sequence is 0.
+    If n is 1, then the function returns 1, since the second number in the Fibonacci sequence is 1.
+    Otherwise, the function uses recursion to call itself with arguments (n - 1) and (n - 2), and returns the sum of two numbers, which are calculated recursively.
+    The function continues to call itself recursively until the nth number in the Fibonacci sequence has been calculated.
+    */
     public int fibonacci(int n){
         if (n == 0){
             return 0;
