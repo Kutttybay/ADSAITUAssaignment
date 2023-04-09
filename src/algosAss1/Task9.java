@@ -26,6 +26,12 @@ public class Task9 {
         int k = sc.nextInt();
         System.out.println("Answer : " + findBinomialCoefficient(n, k));
     }
+    /*
+    The code checks if k is equal to 0 or n is equal to k, then returns 1, because for these values the binomial coefficient is 1.
+    Otherwise, the function uses recursion to call itself twice with arguments (n-1, k-1) and (n-1, k) and then adds the results of these two calls,
+    to get the binomial coefficient.
+    The function continues to call itself recursively until the "n by k" binomial coefficient has been calculated.
+    */
     public int findBinomialCoefficient(int n, int k){
         if (k == 0 || n == k){
             return 1;
