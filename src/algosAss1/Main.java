@@ -5,6 +5,12 @@ import java.util.SortedMap;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+        boolean tf = true : for while and do loop
+        switch case , what check input
+        In cases created object and call method in the other class
+        */
+
         boolean tf = true;
         while(tf) {
             System.out.println("Welcome, you in Assignment 1 \n" +
