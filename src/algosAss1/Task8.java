@@ -21,6 +21,13 @@ public class Task8 {
             System.out.println("No");
         }
     }
+    /*
+    The code checks if the string a is null or empty, then returns false, since an empty string cannot consist only of digits.
+    Otherwise, the function will iterate through all the characters in the string using a for loop,
+    and check if each character is a digit using the Character.isDigit method.
+    If at least one character is not a digit, the function will return false.
+    If all characters are digits, then the function will return true.
+    */
     public boolean isAllDigits(String a){
         if (a == null || a.isEmpty()){
             return false;
